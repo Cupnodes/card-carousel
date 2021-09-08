@@ -10,4 +10,57 @@ body {
     font-family: 'Poppins', sans-serif;
     background: linear-gradient(to right, #141e30, #243b55);
     height: 100vh;
+    overflow: hidden;
 }
+
+header {
+    margin: 3em;
+}
+
+header h1 {
+    color: #fff;
+    font-weight: 300;
+    font-size: 2.2em;
+}
+
+.slide {
+    width: 100vw;
+    object-fit: contain;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    margin: 3em;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 12em;
+    margin-bottom: -2em;
+}
+
+.card p {
+    margin: 2em;
+    margin-top: 1em;
+}
+
+#left {
+    position: absolute;
+    top: 18vh;
+    left: 40vw;
+    font-size: 3em;
+    color: #fff;
+    font-weight: 300;
+}
+
+#left:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#right {}
