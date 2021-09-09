@@ -75,3 +75,55 @@ main .card .card-content{
 main .card .card-content section{
     margin-right: 2rem;
 }
+
+main .card .card-content section img {
+    width: 20rem;
+}
+
+main .card .card-content section span {
+    color: #C9A6A4;
+    font-weight: bold;
+}
+
+main .card .card-content aside {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main .card .card-content aside span {
+    color: #C9A6A4;
+}
+
+main .card .card-content aside h3 {
+    color: #3c1321;
+    font-size: 2em;
+}
+
+main .card .card-content aside h4 {
+    color: #C9A6A4;
+    font-size: 2rem;
+    padding: .3rem 0;
+}
+
+main .card .card-content aside p {
+    font-weight: 300;
+    line-height: 1.8rem;
+}
+
+main .card .card-content aside #card-button {
+    background-color: #d24d57;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 1rem 2rem;
+    margin: 1rem;
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    transition: .1s;
+    cursor: pointer;
+}
+
+main .card .card-content aside #card-button:hover {
+    background-color: #3c1321;
+}
