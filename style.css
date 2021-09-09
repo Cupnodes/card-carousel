@@ -10,7 +10,6 @@ body {
     font-family: 'Poppins', sans-serif;
     background: #E0C9CC;
     height: 100vh;
-    overflow: hidden;
 }
 
 header {
@@ -83,6 +82,32 @@ main .card .card-content section img {
 main .card .card-content section span {
     color: #C9A6A4;
     font-weight: bold;
+}
+
+main .card .card-content section .size-selection label {
+  display: inline-block;
+  padding: .8rem;
+  border: solid 2px #C9A6A4;
+  transition: 0.3s;
+  color: #C9A6A4;
+  margin: 0 .2rem;
+  border-radius: 4px;
+}
+
+main .card .card-content section .size-selection label:hover {
+    background-color: #C9A6A4;
+    color: #fff;
+}
+
+main .card .card-content section .size-selection input[type="radio"] {
+    display: none;
+}
+
+main .card .card-content section .size-selection input[type="radio"]:checked + label {
+    background-color: #3c1321;
+    color: #fff;
+    border: #3c1321;
+    transform: scale(1.1);
 }
 
 main .card .card-content aside {
