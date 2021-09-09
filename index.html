@@ -1,38 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Card Carousel</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 </head>
+
 <body>
     <header>
-        <h1>Card Carousel > Shoes</h1>
+        <div class="logo">
+            <i class="fas fa-shoe-prints"></i>
+            <h1>Sapatos Elegância</h1>
+        </div>
+        <ul>
+            <li>Home</li>
+            <li>Produtos</li>
+            <li>Contato</li>
+            <li>Saiba Mais</li>
+        </ul>
     </header>
-    <div class="slide">
+    <main>
         <div class="card">
-            <img src="img/img-1.jpg">
-            <h2>Tênis Olympikus Attract</h2>
-            <p>O Tênis Olympikus Attract Se 815 Masculino é confeccionado em material sintético com detalhes em material têxtil, garantindo maior conforto e respirabilidade, a estrutura é firme e possui perfuros para circulação de ar. </p>
+            <div class="card-content">
+                <section>
+                    <img src="img/img-1.jpg">
+                    <span>Escolha seu tamanho</span>
+                    <div class="size-selection">
+                        <input type="radio" name="size" id="radio1">
+                        <input type="radio" name="size" id="radio2">
+                        <input type="radio" name="size" id="radio3">
+                        <input type="radio" name="size" id="radio4">
+                        <input type="radio" name="size" id="radio5">
+                        <input type="radio" name="size" id="radio6">
+                    </div>
+                </section>
+                <aside>
+                    <span>Excelente conforto e durabilidade</span>
+                    <h3>Tênis Olympikus Starter</h3>
+                    <h4>R$ 80</h4>
+                    <p>Para maior conforto e maciez nas suas corridas, conte com o Tênis Olympikus Starter. Confeccionado em material leve e durável, possui forro acolchoado, tecnologia EVAsense e solado frisado para melhor aderência ao solo durante seus treinos. Conte com a Olympikus para garantir atitude no seu sportwear!</p>
+                    <button id="card-button">Adicionar ao carrinho</button>
+                </aside>
+            </div>
         </div>
-        <div class="card">
-            <img src="img/img-2.jpg">
-            <h2>Tênis Nike Downshifter</h2>
-            <p>O modelo apresenta cabedal em malha de tramas abertas que auxiliam na flexibilidade e na ventilação interna, que afasta o mau odor. A palmilha macia fornece conforto durante as passadas, enquanto o solado emborrachado garante aderência e tração. </p>
-        </div>
-        <div class="card">
-            <img src="img/img-3.jpg">
-            <h2>Tênis Olympikus Marine</h2>
-            <p>O Tênis Olympikus Attract Se 815 Masculino é confeccionado em material sintético com detalhes em material têxtil, garantindo maior conforto e respirabilidade, a estrutura é firme e possui perfuros para circulação de ar. </p>
-        </div>
-        <div class="tools">
-            <div id="left"><i class="fas fa-angle-left"></i></div>
-            <div id="right"><i class="fas fa-angle-right"></i></div>
-        </div>
-    </div>
+    </main>
     <script src="script.js"></script>
 </body>
+
 </html>
